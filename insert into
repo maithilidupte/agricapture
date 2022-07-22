@@ -1,0 +1,13 @@
+Select * from [dbo].[sep_fieldupd]
+Insert Into [dbo].[SEP_Farms_FIELDS] 
+([FIELD_ID],[admin_stat],[admin_coun],[STATE],[COUNTY],[OPERATOR_NAME],[FARM_NAME],[TRACT_NAME],[FIELD_NAME],[ORG_ID],[SOURCE],[CF_Practice],[Acreage])
+
+Select [FIELD_ID],[admin_stat],[admin_coun],[STATE],[COUNTY],[OPERATOR_NAME],[FARM_NAME],[TRACT_NAME],[FIELD_NAME],[ORG_ID],[SOURCE],[CF_Practice],[Acreage] from [dbo].[sep_fieldupd]
+
+
+
+select * from [dbo].[SEP_Farms_FIELDS]
+
+
+
+
