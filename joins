@@ -1,0 +1,16 @@
+SELECT  [Animal]   ###TABLE NAMES YOU WANT
+      ,[State]
+      ,[B0_l]
+      ,[VSl]
+      ,[Nexl]
+      ,[PEFENT_l]
+
+FROM [AgriCapture_GRASSLAND].[dbo].[GRAZING] as gz 
+INNER JOIN [AgriCapture_GRASSLAND].[dbo].[county_MLRA_key] as mk
+    ON (gz.STATE = mk.)
+
+GO
+
+
+SELECT (TABLE NAMES) FROM DATABASE.TABLE AS (NAME IT IN SHORT) (TYPE OF JOINT) NEW DATABASE YOU WANT TO JOIN.TABLE  AS( name in short)
+ON DATABASE.TABLE.COLUMN = DATABASE.TABLE.COLUMN
